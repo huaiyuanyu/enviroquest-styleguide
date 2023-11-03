@@ -33,7 +33,7 @@ const LogoStyleGuide = () => {
         </div>
     </div>
 
-    {/* Third & Fourth Grid: Horizontal and Vertical Logos */}
+    {/* Third and Fourth Grid: Horizontal and Vertical Logos */}
     <div className="grid grid-cols-2 gap-4 mb-4">
         <div className="flex justify-center">
             <div>
