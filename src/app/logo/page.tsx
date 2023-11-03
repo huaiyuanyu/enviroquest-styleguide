@@ -1,54 +1,54 @@
-import React from 'react';
+import Image from 'next/image';
 
 const LogoStyleGuide = () => {
   return (
     <div className="p-8">
       <h1 className="text-2xl font-bold mb-6">Logo Style Guide</h1>
 
-{/* Logo Variations */}
-<section className="mb-8">
-    <h2 className="text-xl font-semibold mb-4">Logo Variations</h2>
+      {/* Logo Variations */}
+      <section className="mb-8">
+        <h2 className="text-xl font-semibold mb-4">Logo Variations</h2>
 
-    {/* First Grid: Circle Logos */}
-    <div className="grid grid-cols-3 gap-4 mb-4">
-        <div>
-            <img src="/images/fullcolor.png" alt="Full Color Logo" className="w-1/3 mx-auto" />
+        {/* First Grid: Circle Logos */}
+        <div className="grid grid-cols-3 gap-4 mb-4">
+          <div className="mx-auto">
+            <Image src="/images/fullcolor.png" alt="Full Color Logo" width={300} height={300} layout='responsive' />
             <p className="mt-2 text-center">Full Color</p>
-        </div>
-        <div>
-            <img src="/images/graystyle.png" alt="Grayscale Logo" className="w-1/3 mx-auto" />
+          </div>
+          <div className="mx-auto">
+            <Image src="/images/graystyle.png" alt="Grayscale Logo" width={300} height={300} layout='responsive' />
             <p className="mt-2 text-center">Grayscale</p>
-        </div>
-        <div>
-            <img src="/images/black&white.png" alt="Black Logo" className="w-1/3 mx-auto" />
+          </div>
+          <div className="mx-auto">
+            <Image src="/images/black&white.png" alt="Black Logo" width={300} height={300} layout='responsive' />
             <p className="mt-2 text-center">Black & White</p>
+          </div>
         </div>
-    </div>
 
-    {/* Second Grid: Primary Logo */}
-    <div className="flex justify-center mb-4">
-        <div>
-            <img src="/images/EnviroQuest.png" alt="Primary Logo" className="w-2/3 mx-auto" />
+        {/* Second Grid: Primary Logo */}
+        <div className="flex justify-center mb-4">
+          <div>
+            <Image src="/images/EnviroQuest.png" alt="Primary Logo" width={600} height={600} layout='responsive' />
             <p className="mt-2 text-center">EnviroQuest</p>
+          </div>
         </div>
-    </div>
 
-    {/* Third & Fourth Grid: Horizontal and Vertical Logos */}
-    <div className="grid grid-cols-2 gap-4 mb-4">
-        <div className="flex justify-center">
+        {/* Third and Fourth Grid: Horizontal and Vertical Logos */}
+        <div className="grid grid-cols-2 gap-4 mb-4">
+          <div className="flex justify-center">
             <div>
-                <img src="/images/horizontal.png" alt="Horizontal Full Color Logo" className="w-2/3 mx-auto" />
-                <p className="mt-2 text-center">Horizontal Full Color</p>
+              <Image src="/images/horizontal.png" alt="Horizontal Full Color Logo" width={600} height={200} layout='responsive' />
+              <p className="mt-2 text-center">Horizontal Full Color</p>
             </div>
-        </div>
-        <div className="flex justify-center">
+          </div>
+          <div className="flex justify-center">
             <div>
-                <img src="/images/vertical.png" alt="Vertical Full Color Logo" className="w-2/3 mx-auto" />
-                <p className="mt-2 text-center">Vertical Full Color</p>
+              <Image src="/images/vertical.png" alt="Vertical Full Color Logo" width={400} height={600} layout='responsive' />
+              <p className="mt-2 text-center">Vertical Full Color</p>
             </div>
+          </div>
         </div>
-    </div>
-</section>
+      </section>
 
       {/* Rationale Behind Logo Design */}
       <section className="mb-8">
