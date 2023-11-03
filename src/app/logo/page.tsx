@@ -51,12 +51,14 @@ const LogoStyleGuide = () => {
       </section>
 
       {/* Rationale Behind Logo Design */}
-      <section className="mb-8">
-        <h2 className="text-xl font-semibold mb-4">Logo Design Rationale</h2>
-        <p>
-          EnviroQuest logo is crafted with intention. The tree stands as a representation of the environment, alluding to the "Enviro" part of the app's name. Green and blue are emblematic of the Earth's natural elements: land and water. These colors not only resonate with the environmental theme of the app but also suggest calmness, focus, and clarity - essential attributes when engaging in educational activities.
-        </p>
-      </section>
+      {/* Rationale Behind Logo Design */}
+<section className="mb-8">
+  <h2 className="text-xl font-semibold mb-4">Logo Design Rationale</h2>
+  <p>
+    {'EnviroQuest logo is crafted with intention. The tree stands as a representation of the environment, alluding to the "Enviro" part of the app\'s name. Green and blue are emblematic of the Earth\'s natural elements: land and water. These colors not only resonate with the environmental theme of the app but also suggest calmness, focus, and clarity - essential attributes when engaging in educational activities.'}
+  </p>
+</section>
+
 
     </div>
   );
