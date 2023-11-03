@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const LogoStyleGuide = () => {
   return (
-    <div className="p-8">
+    <div className="mt-[50px]">
       <h1 className="text-2xl font-bold mb-6">Logo Style Guide</h1>
 
       {/* Logo Variations */}
