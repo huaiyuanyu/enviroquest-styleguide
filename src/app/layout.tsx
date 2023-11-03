@@ -17,6 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+      <style>
+        @import url(https://fonts.googleapis.com/css?family=Inter|Abril+Fatface|Open+Sans);
+      </style>
+      </head>
       <body className={inter.className}>
         <Navbar />
         {children}
