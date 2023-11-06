@@ -6,17 +6,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>Enviroquest Styleguide</h1>
-      <p>{lorem}</p>
-      <p>{lorem}</p>
-      <p>{lorem}</p>
-      <p>{lorem}</p>
-      <p>{lorem}</p>
-      <p>{lorem}</p>
-      <p>{lorem}</p>
-      <p>{lorem}</p>
-      <p>{lorem}</p>
-      <p>{lorem}</p>
+      <Image src="/images/EnviroQuest.png" alt="Primary Logo" width={600} height={600} />
     </main>
   )
 }
